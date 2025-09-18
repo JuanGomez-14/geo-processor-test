@@ -31,9 +31,11 @@ Thumbs.db
 # --------------------------
 
 # Entornos virtuales
-/venv
-/env
-/.venv
+/venv*
+/env*
+packages/*/venv*
+packages/*/env*
+/.venv*
 
 # Archivos de caché y de compilación de Python
 __pycache__/

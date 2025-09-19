@@ -25,6 +25,10 @@ pnpm-debug.log*
 # archivos de sistema operativo
 .DS_Store
 Thumbs.db
+.idea/
+
+# archivos de editor de texto
+.vscode/
 
 # --------------------------
 # Python / FastAPI
@@ -45,3 +49,19 @@ __pycache__/
 
 # Archivos de datos y bases de datos locales
 *.db
+
+# --------------------------
+# Pruebas y Cobertura
+# --------------------------
+/coverage
+/.nyc_output
+/test-results/
+
+# --------------------------
+# Archivos de Log y Caché General
+# --------------------------
+*.log
+*.sqlite3
+.DS_Store
+.cache/
+.eslintcache

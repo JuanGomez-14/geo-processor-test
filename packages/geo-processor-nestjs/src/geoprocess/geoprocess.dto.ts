@@ -1,4 +1,3 @@
-// src/geoprocess/geoprocess.dto.ts
 import { IsArray, IsNumber, ValidateNested, ArrayMinSize } from 'class-validator';
 import { Type } from 'class-transformer';
 

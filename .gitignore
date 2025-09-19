@@ -8,12 +8,18 @@
 /.turbo
 /.vercel
 
-# variables de entorno
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# variables de entorno 
+# SE DEJAN COMENTADAS PARA QUE AL CLONAR EL REPO EL USUARIO PUEDA CORRER DIRECTAMENTE PARA PROBARLO
+
+# THESE ARE COMMENTED OUT SO THAT WHEN THE REPO IS CLONED, 
+# THE USER CAN RUN IT DIRECTLY TO TEST IT
+
+
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
 # registros de paquetes
 npm-debug.log*
